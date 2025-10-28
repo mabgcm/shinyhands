@@ -1,0 +1,43 @@
+:root {
+    --base-color: #6B6B6B;
+    /* softer neutral gray for body text */
+    --primary-color: #DA58A4;
+    /* main pink brand color */
+    --secondary-color: #4EC3B3;
+    /* balanced mint-teal accent */
+    --heading-color: #1F1F1F;
+    /* strong neutral heading color */
+    --link-bg-hover-color: #B04383;
+    /* darker pink hover */
+    --bannar-bg-color: #FFF5FA;
+    /* very light pink banner background */
+    --link-color: #FFFFFF;
+    /* white text on pink buttons */
+    --link-bg-color: #DA58A4;
+    /* button background */
+    --link-hover-bg-color: #B04383;
+    /* hover pink */
+    --white-color: #FFFFFF;
+    --sub-heading-color: #999999;
+    --form-inputs-text-color: #333333;
+    /* darker for readability */
+    --form-fieldInput-bg-color: rgba(255, 255, 255, 0.9);
+    --form-label-font-color: #1F1F1F;
+    --form-input-border-color: #EAD4E2;
+    /* soft pink border */
+    --form-input-focus-border-color: #DA58A4;
+    --form-bg-color: #FFFFFF;
+    --form-borderColor: #EAD4E2;
+    --form-btn-text-color: #FFFFFF;
+    --form-btn-border-color: #DA58A4;
+    --form-btn-bg-color: #DA58A4;
+    --form-btn-bg-hover-color: #B04383;
+    --form-btn-text-hover-color: #FFFFFF;
+    --form-btn-hover-border-color: #B04383;
+    --body-font: 'Open Sans';
+    --body-font-size: 14px;
+    --body-font-weight: 400;
+
+    --primary-font: 'Open Sans';
+    --secondary-font: 'Bitter';
+}
