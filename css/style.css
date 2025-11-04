@@ -639,7 +639,7 @@
 }
 
 .btn-box .theme-btn.btn-style-one {
-    background: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .btn-box .theme-btn {
@@ -647,7 +647,7 @@
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 17px 27px;
     border: none;
@@ -1044,7 +1044,8 @@
 }
 
 .link-btn-two .theme-btn-two {
-    background: var(--secondary-color);
+    background: var(--primary-color);
+    color: #000;
 }
 
 .link-btn-two .theme-btn-two {
@@ -1052,7 +1053,7 @@
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    color: #fff;
+    color: #000;
     text-align: center;
     margin-top: 40px;
     padding: 17px 24px;
