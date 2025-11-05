@@ -820,6 +820,58 @@
     background: var(--primary-color);
 }
 
+.whatsapp-fab {
+    position: fixed;
+    left: 20px;
+    /* opposite side */
+    bottom: 20px;
+    display: inline-flex;
+    /* visible by default */
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    background: #DA58A4;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .18);
+    text-decoration: none;
+    z-index: 101;
+    /* above the top button (100) */
+    transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.whatsapp-fab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .22);
+}
+
+.sms-fab {
+    position: fixed;
+    right: 20px;
+    /* opposite side */
+    bottom: 20px;
+    display: inline-flex;
+    /* visible by default */
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    background: #DA58A4;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 999px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .18);
+    text-decoration: none;
+    z-index: 101;
+    /* above the top button (100) */
+    transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.sms-fab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .22);
+}
+
 /* --------------------------------- */
 /* main slider css */
 .main-slider {

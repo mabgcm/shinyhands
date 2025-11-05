@@ -122,7 +122,7 @@
 		</section>
 		<!-- main slider bannar end -->
 
-		<div class="single-item" style="background:#000000; border-radius:50%; padding:30px; text-align:center;margin-top: 100px; margin-bottom: 0;">
+		<div class="single-item col-6 m-auto" style="background:#000000; border-radius:50%; padding:30px; text-align:center;margin-top: 100px; margin-bottom: 0;">
 			<div class="icon-img-box">
 			</div>
 			<h4 class="single-item-title" style="color:#DA58A4; font-weight: 700;">Choose Your Odor</h4>
@@ -130,10 +130,10 @@
 				🍋 Lemon Fresh •  
 				🍊 Fresh Citrus •  
 				🌸 Lavender Calm •  
+				<br>
 				🌊 Ocean Breeze •  
 				🌿 Mint Breeze •  
 				🍃 Green Tea & Floral •  
-				🚫 Unscented
 			</p>
 		</div>
 
@@ -523,7 +523,13 @@
 
 		<!-- Get In Touch section start -->
 		<section id="contact" class="touch-section">
-			<div class="container" style="height: 620px;">
+
+			<div class="map-inner">
+				<div class="map-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91283.44626460162!2d-79.74812204103527!3d44.35910963149224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3371ad7206d%3A0x1d2e0f00a84b535a!2sBarrie%2C%20ON!5e0!3m2!1sen!2sca!4v1762218097098!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+			<div class="container">
 				<div class="row clearfix">
 					<div class="col-lg-6 col-md-12 col-sm-12 from-column">
 						<div class="touch-items">
@@ -639,11 +645,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="map-inner">
-				<div class="map-container">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91283.44626460162!2d-79.74812204103527!3d44.35910963149224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3371ad7206d%3A0x1d2e0f00a84b535a!2sBarrie%2C%20ON!5e0!3m2!1sen!2sca!4v1762218097098!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-			</div>
+			
 		</section>
 		<!-- Get In Touch section end -->
 
@@ -711,6 +713,10 @@
 											<li><img src="images/icons/talephone-img.png" alt=""><a href="tel:4375528489">(437) 552-8489</a></li>
 											<li><img src="images/icons/ant-design_mail-outlined.png" alt=""> <a href="mailto:info@shinyhandscleaning.com">info@shinyhandscleaning.com</a></li>
 										</ul>
+										<ul class="social-links clearfix" style="display:inline-flex; gap:12px;">
+											<li ><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+											<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+										</ul>
 									</div>
 								</div>
 							</div>
@@ -732,19 +738,33 @@
 	<!--End pagewrapper-->
 
 	<!--Scroll to top-->
-	<div class="scroll-to-top scroll-to-target" data-target="html">
+	<!-- <div class="scroll-to-top scroll-to-target" data-target="html">
 		<a
-  href="https://wa.me/14375528489?text=Hi%20Shiny%20Hands!%20I%E2%80%99d%20like%20a%20cleaning%20quote."
-  class="whatsapp-fab"
-  target="_blank"
-  rel="noopener"
-  aria-label="Get a Quote on WhatsApp"
->
-  <i class="fab fa-whatsapp" aria-hidden="true"></i>
-  <span>Get a Quote</span>
-</a>
-	</div>
-	<!--Scroll to top-->
+			href="https://wa.me/14375528489?text=Hi%20Shiny%20Hands!%20I%E2%80%99d%20like%20a%20cleaning%20quote."
+			class="whatsapp-fab"
+			target="_blank"
+			rel="noopener"
+			aria-label="Get a Quote on WhatsApp"
+			>
+			<i class="fab fa-whatsapp" aria-hidden="true"></i>
+			<span>Get a Quote</span>
+			</a>
+	</div> -->
+
+	<a
+		href="sms:+14375528489?&body=Hi%20Shiny%20Hands!%20I%E2%80%99d%20like%20a%20cleaning%20quote."
+		class="sms-fab"
+		aria-label="Send SMS for Estimate">
+		<i class="fa fa-comment-dots" aria-hidden="true"></i>
+		<span>Text for Quote</span>
+	</a>
+	<a
+		href="https://wa.me/14375528489?text=Hi%20Shiny%20Hands!%20I%E2%80%99d%20like%20a%20cleaning%20quote."
+		class="whatsapp-fab"
+		aria-label="Send SMS for Estimate">
+		<i class="fab fa-whatsapp" aria-hidden="true"></i>
+		<span>WA for Quote</span>
+	</a>
 	<script src="js/jquery.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/owl.js"></script>
